@@ -1,0 +1,25 @@
+.body form button{
+    margin-top: 20px;
+}
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    padding:10px 50px;
+}
+
+.form-control{
+    text-decoration: none;
+    background: transparent;
+    border: none;
+}
+
+.signin form{
+    margin: 10px;
+}
+@media screen and (max-width:950px) {
+    .body img{
+        height: 150px;
+    }
+    
+}

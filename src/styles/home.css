@@ -1,0 +1,47 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to left ,rgba(0, 0, 0, 0.4),white);
+    height: 700px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding:20px;
+}
+
+.home h1{
+    font-size: 50px;
+    font-family: 'Square Peg', cursive;
+    margin-top: 30px;
+}
+.home h2{
+    font-family: 'Square Peg', cursive;
+    font-size: 40px;
+}
+
+.homelinks{
+    display: flex;
+    align-items: center;
+}
+.homelinks a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+    background-color: rgb(5, 45, 60);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif;
+    transition: all ease 0.3s;
+}
+.homelinks a:hover{
+    background-color:rgb(11, 67, 87);
+}
+
+.home img{
+    width: 15rem;
+}
+@media  screen and (max-width:370px){
+    .home h1{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,41 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    padding:10px 50px;
+}
+.register h1{
+    margin-top: 10px;
+    font-size: 40px;
+}
+.register form{
+    margin: 60px;
+    width: 50%;
+}
+
+.body{
+    display: flex;
+    margin: 10px;
+    padding:20px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 6px  rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to left ,rgba(0, 0, 0, 0.4),white);
+}
+.body img{
+    height: 400px;
+}
+
+@media screen and (max-width:600px){
+    .body img{
+        display: none;
+    }
+    .body{
+        padding: 0;
+    }
+    .register form{
+        width: 100%;
+    }
+    .form-control{
+        width: auto !important
+    }
+}
